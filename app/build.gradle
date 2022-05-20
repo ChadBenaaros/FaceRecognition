@@ -33,6 +33,7 @@ android {
         abortOnError false
     }
     namespace 'org.tensorflow.lite.examples.detection'
+    buildToolsVersion '28.0.3'
 }
 
 // import DownloadModels task

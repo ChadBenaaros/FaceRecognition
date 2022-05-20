@@ -16,6 +16,11 @@
             app:destination="@id/SecondFragment" />
     </fragment>
     <fragment
+        android:id="@+id/tfe_od_activity_camera"
+        android:name="org.tensorflow.lite.examples.detection.SecondFragment"
+        android:label="@string/tfe_od_app_name"
+        tools:layout="@layout/tfe_od_activity_camera" />
+    <fragment
         android:id="@+id/SecondFragment"
         android:name="org.tensorflow.lite.examples.detection.SecondFragment"
         android:label="@string/second_fragment_label"
